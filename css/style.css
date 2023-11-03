@@ -10,36 +10,35 @@ body {
 
 .advertisement {
     overflow: hidden;
-    font-family: "Pridi", sans-serif;
-    font-weight: 600;
-    font-size: 34px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 28px;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
     text-transform: uppercase;
-    background-color: #FFDC00;
+    color: #BEA69E;
+    background-color: #121212;
 }
 
-/* .marquee {
-  overflow: hidden;
-  font-family: "Pridi", sans-serif;
-  font-weight: 600;
-  font-size: 34px;
-  text-transform: uppercase;
-  background-color: #FFDC00;
-} */
 
 .marquee__inner {
   display: flex;
+
 }
 
 .marquee__line {
   flex-shrink: 0;
   margin: 0;
-  padding: 10px 15px;
+  padding: 20px 15px;
   min-width: 100%;
   white-space: nowrap;
   animation-name: marqueeLine;
   animation-duration: 5s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
+}
+
+.sp {
+    color: #fff;
 }
 
 @keyframes marqueeLine {
