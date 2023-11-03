@@ -3,3 +3,12 @@
 *::after {
     box-sizing: border-box;
 }
+
+.advertisement {
+    overflow: hidden;
+    font-family: "DM Sans", sans-serif;
+    line-height: 1.15;
+    text-transform: uppercase;
+    color: #BEA69E;
+    background-color: black;
+}
